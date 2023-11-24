@@ -1,0 +1,82 @@
+ body {
+        font-size: large;
+        font-family: fantasy;
+        background-image: url(https://fons.pibig.info/uploads/posts/2023-06/1686078543_fons-pibig-info-p-fon-dlya-podachi-vkontakte-16.png);
+
+}
+h2{
+  font: small-caps 24px/1 cursive;
+  color:#000000;
+  font-weight: bold;
+
+}
+p{
+        color:#000000;
+        font:24px/1 "Fira Sans", sans-serif;
+}
+section {
+        margin: 0% 15%;
+        padding: 50px 20px;
+        display: block;
+}
+ul.hor{
+  list-style-type: none;
+  margin: 0% 10% 0% 16%;
+  background-color: #ccabed;
+  position: fixed;
+  float: left;
+  display: flex;
+  
+}
+
+div {
+  border-radius: 20px;
+  display:block;
+  position: fixed;
+  margin:0;
+  height:200px;
+  width:9%;
+  float: left;
+  background-color:#ffccff;
+  list-style-type: none;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+}
+div ul {
+  border-radius: 15px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  display: block;
+  background-color: #b3b3ff;
+}
+div li a {
+  display: block;
+  color: #111;
+  padding: 8px 8px;
+  text-decoration: none;
+}
+ul.hor li a {
+  display: block;
+  color: #1a092a;
+  text-align: center;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+ul.hor li a:hover {
+  background-color: #ffccff;
+}
+div li a:hover {
+  background-color: #555;
+  color: white;
+}
+ul.hor li {
+  float: left;
+}
+div ul li a {
+  margin:0;
+  text-align: left;
+  border-radius: 20px;
+}
